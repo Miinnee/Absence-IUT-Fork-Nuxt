@@ -1,24 +1,75 @@
-# Absence IUT Orsay
+# Nuxt Minimal Starter
 
-## Description
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-> A simple site for students of the iut d'orsay to consult their absences.
->
-> There is :
-> > - An absences side
-> > 
-> > - An lates side
-> > 
-> > - An exclusions side
+## Setup
 
-## Authors
+Make sure to install dependencies:
 
-> [@Arthur-91140](https://www.github.com/Arthur-91140)
+```bash
+# npm
+npm install
 
-## How to use it ?
+# pnpm
+pnpm install
 
-> Just have to type your login in the search bar and enjoy seeing how you are a bad student :D
+# yarn
+yarn install
 
-## Link
+# bun
+bun install
+```
 
-> [Absence IUT Orsay](https://arthur.pruvost-rivière.fr/absence-iut/)
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
