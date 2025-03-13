@@ -492,7 +492,6 @@ h4::after {
     animation: float 5s ease-in-out infinite;
 }
 
-/* Styles de base (déjà présents) */
 :root {
     --primary-color: #63003C;
     --primary-dark: #4E0030;
@@ -505,14 +504,11 @@ h4::after {
     --background-gradient: linear-gradient(135deg, #F8E5EF, #F9E9F1, #F7E3ED, #F6E0EA);
 }
 
-/* Media queries pour responsive */
 @media screen and (max-width: 768px) {
-    /* Ajustements du conteneur principal */
     .container {
         padding: 10px;
     }
     
-    /* Ajustements de l'en-tête */
     header {
         padding: 20px 0;
         margin-bottom: 20px;
@@ -522,7 +518,6 @@ h4::after {
         font-size: 24px;
     }
     
-    /* Ajustements de la boîte de recherche */
     .search-box {
         padding: 20px;
         margin: 15px 0;
@@ -543,7 +538,6 @@ h4::after {
         width: 100%;
     }
     
-    /* Ajustements des résultats */
     .result {
         padding: 20px;
         margin-top: 20px;
@@ -553,7 +547,6 @@ h4::after {
         padding: 15px;
     }
     
-    /* Ajustements du sommaire */
     .summary {
         flex-direction: column;
         gap: 10px;
@@ -568,7 +561,6 @@ h4::after {
         font-size: 24px;
     }
     
-    /* Ajustements des onglets */
     .tabs {
         flex-wrap: wrap;
         gap: 2px;
@@ -581,7 +573,6 @@ h4::after {
         text-align: center;
     }
     
-    /* Ajustements des tableaux */
     table {
         display: block;
         overflow-x: auto;
@@ -593,25 +584,21 @@ h4::after {
         white-space: nowrap;
     }
     
-    /* Adapter les messages d'erreur */
     .error-message {
         padding: 15px;
         margin: 15px 0;
     }
     
-    /* Ajustements des titres */
     h2, h3, h4 {
         font-size: 18px;
     }
     
-    /* Adapter l'animation de chargement */
     .loading::after {
         width: 40px;
         height: 40px;
     }
 }
 
-/* Styles spécifiques pour très petits écrans */
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 20px;
@@ -626,7 +613,6 @@ h4::after {
         font-size: 13px;
     }
     
-    /* Améliorer l'affichage des tableaux sur très petits écrans */
     th {
         font-size: 13px;
     }
@@ -635,7 +621,6 @@ h4::after {
         font-size: 13px;
     }
     
-    /* Réduire les marges et paddings */
     .student-info {
         padding: 12px;
         margin-bottom: 15px;
@@ -646,7 +631,6 @@ h4::after {
         margin: 5px 0;
     }
     
-    /* Optimiser l'espace vertical */
     .details {
         margin-top: 20px;
     }
@@ -656,7 +640,6 @@ h4::after {
     }
 }
 
-/* Styles spécifiques pour l'orientation paysage sur mobile */
 @media screen and (max-height: 500px) and (orientation: landscape) {
     .container {
         padding: 5px 10px;
@@ -681,29 +664,25 @@ h4::after {
         min-width: calc(33.33% - 10px);
     }
     
-    /* Optimiser les tableaux pour l'orientation paysage */
     th, td {
         padding: 8px;
     }
 }
 
-/* Style pour améliorer l'accessibilité des formulaires sur mobile */
 @media screen and (max-width: 768px) {
     input[type="text"]:focus {
-        font-size: 16px; /* Empêche le zoom automatique sur iOS */
+        font-size: 16px;
     }
     
     label {
         font-size: 14px;
     }
     
-    /* Améliorer la cible de clic sur mobile */
     .tab, button {
-        min-height: 44px; /* Taille minimale recommandée pour les cibles de toucher */
+        min-height: 44px;
     }
 }
 
-/* Améliorations pour l'impression */
 @media print {
     body {
         background: none;
